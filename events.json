@@ -1,0 +1,58 @@
+[
+  {
+    "year": "7 Million Years Ago",
+    "title": "Sahelanthropus tchadensis",
+    "description": "One of the earliest known hominins; possibly walked upright with both ape-like and human-like traits.",
+    "imageURL": "https://humanorigins.si.edu/sites/default/files/styles/grid_thumbnail/public/images/landscape/S_tchadensis_front_h_DH.jpg.webp?itok=W_WoKPCh",
+    "category": "Early Hominins"
+  },
+  {
+    "year": "3.9-2.9 Million Years Ago",
+    "title": "Australopithecus afarensis",
+    "description": "Lived in East Africa; walked upright; one of the best-known early human species. Famous specimen: 'Lucy'.",
+    "imageURL": "https://endz.in/wp-content/uploads/2023/03/Australopithecus-afarensis-1.jpg",
+    "category": "Early Hominins"
+  },
+  {
+    "year": "2.4-1.4 Million Years Ago",
+    "title": "Homo habilis",
+    "description": "Among the first tool users; had a larger brain than earlier species. Known as the 'handy man'.",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSenIin9BzdehRSfQ9xe4sbOOsY0l0D4MxYWGC9E2PuTK0BhFAX7ycEfMprIFwsSiYKmGk&usqp=CAU",
+    "category": "Tool Makers"
+  },
+  {
+    "year": "1.9 Million - 110,000 Years Ago",
+    "title": "Homo erectus",
+    "description": "Used more advanced tools, stood fully upright, and had body proportions similar to modern humans. First hominin to use fire and migrate out of Africa.",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi08F1YeZqCgIX7pYslfUQMPcjCB2oDBnFVQ&s",
+    "category": "Migrators"
+  },
+  {
+    "year": "400,000 – 40,000 Years Ago",
+    "title": "Homo neanderthalensis",
+    "description": "Close cousins to modern humans; adapted to cold climates; buried their dead and made tools.",
+    "imageURL": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/1235088525_nkezsb",
+    "category": "Cousins"
+  },
+  {
+    "year": "300,000 Years Ago – Present",
+    "title": "Homo sapiens",
+    "description": "Originated in Africa and spread worldwide; developed complex language, art, and technology.",
+    "imageURL": "https://images.nature.com/lw1200/magazine-assets/d41586-023-02712-4/d41586-023-02712-4_25984634.jpg",
+    "category": "Modern Humans"
+  },
+  {
+    "year": "40,000 Years Ago",
+    "title": "Cave Art Flourishes",
+    "description": "Humans began creating symbolic cave art, showing advanced creativity and culture.",
+    "imageURL": "https://cdn.britannica.com/83/155883-050-4507D239/Paintings-Cave-Chauvet-France.jpg",
+    "category": "Culture"
+  },
+  {
+    "year": "12,000 Years Ago",
+    "title": "Agricultural Revolution",
+    "description": "Humans shifted from hunting-gathering to farming, leading to permanent settlements.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Agriculture_Revolution.jpg",
+    "category": "Agriculture"
+  }
+]
