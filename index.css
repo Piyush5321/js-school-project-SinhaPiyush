@@ -1,0 +1,108 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* ===== TIMELINE CONTAINER ===== */
+#timeline {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===== TIMELINE EVENTS ===== */
+article {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1.5rem;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+article:hover {
+  transform: scale(1.02);
+}
+
+/* ===== EVENT MARKER (DOT) ===== */
+article::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: -15px;
+  width: 15px;
+  height: 15px;
+  background-color: #c0392b;
+  border-radius: 50%;
+}
+
+/* ===== FIGURE & IMAGES ===== */
+figure {
+  margin: 1rem 0;
+}
+
+figure img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* ===== MODAL STYLES ===== */
+#modal-root .modal-content {
+  background: #fff;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 767px) {
+  #timeline {
+    grid-template-columns: 1fr;
+  }
+  article::before { left: 10px; }
+  header h1 { font-size: 1.5rem; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #timeline { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  #timeline { grid-template-columns: repeat(3, 1fr); }
+}
