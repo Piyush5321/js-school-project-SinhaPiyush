@@ -1,0 +1,1 @@
+export default function App(){ return <h1>Accessible Timeline App</h1>}
